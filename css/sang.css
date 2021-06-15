@@ -164,3 +164,250 @@ body{
 .sub_4:hover .sub_4_1{
   top:80%;
 }
+
+
+@media screen and ( min-width : 481px ) and ( max-width : 768px ){
+  body{
+    position: absolute;
+    overflow: scroll;
+    max-width: 100%;
+    max-height: auto;
+    width: auto;
+    display: block;
+  }
+  .navbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top:0;
+  }
+  .navbar a button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .navbar a button:before{
+    font-size: 25px;
+  }
+  .navbar ul{
+    position: relative;
+    margin-left: 0px;
+    left:415px;
+    top:20px;
+  }
+  .navbar ul li{
+    margin-left: 25px;
+    right: 0px;
+    font-size: 18px;
+  }
+
+
+  .head_img{
+    width: 340px;
+    position: absolute;
+    top: 70px;
+    left:30px;
+    height : 600px;
+  }
+  .title{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+  .title2{
+    position: absolute;
+    top: 600px;
+    left: 340px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+
+
+  .sub_img, .sub_img2{
+   display: block;
+   position: absolute;
+   top: auto;
+  }
+  .sub_img{
+    margin-top: 0;
+    position: absolute;
+    top: 70px;
+    margin-left: 380px;
+    left: 0;
+    overflow: hidden;
+  }
+  .sub_img div{
+    width: 230px;
+    overflow: hidden;
+    margin-left:30px;
+    font-size: 15px;
+  }
+  .sub_2_1 , .sub_1_1{
+    max-height: 50px;
+  }
+  .sub_2:hover .sub_2_1{
+    top: 210px;
+    margin-left: 0;
+  }
+  .sub_1:hover .sub_1_1{
+    top: 210px;
+    margin-left: 0;
+  }
+
+  .sub_img2{
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 730px;
+    left: 100px;
+    margin-left: 40px;
+    display: flex;
+    max-width: auto;
+  }
+  .sub_img2 div{
+    width: 230px;
+  }
+  .sub_img2 div div{
+    height: 50px;
+    font-size: 15px;
+  }
+  .sub_4{
+    margin-left: 40px;
+  }
+  .sub_4:hover .sub_4_1{
+    top : 210px;
+  }
+  .sub_3:hover .sub_3_1{
+    top : 210px;
+  }
+
+
+}
+
+
+@media screen and ( max-width : 480px ) {
+  body{
+    position: absolute;
+    overflow: scroll;
+    max-width: 100%;
+    max-height: auto;
+    width: auto;
+    display: block;
+  }
+  .navbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top:0;
+  }
+  .navbar a button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .navbar a button:before{
+    font-size: 20px;
+  }
+  .navbar ul{
+    position: relative;
+    margin-left: 0px;
+    left:190px;
+    top:20px;
+  }
+  .navbar ul li{
+    margin-left: 20px;
+    right: 0px;
+    font-size: 15px;
+  }
+
+
+  .head_img{
+    width: 340px;
+    position: absolute;
+    top: 70px;
+    left:30px;
+    height : 600px;
+  }
+  .title{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+  .title2{
+    position: absolute;
+    top: 600px;
+    left: 340px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+
+
+  .sub_img, .sub_img2{
+   display: block;
+   position: absolute;
+   top: auto;
+  }
+  .sub_img{
+    position: absolute;
+    top: 550px;
+    left: -395px;
+    overflow: hidden;
+    display: flex;
+  }
+  .sub_img div{
+    width: 150px;
+    overflow: hidden;
+    margin-left:30px;
+    font-size: 15px;
+  }
+  .sub_1_1 , .sub_2_1{
+    max-height: 50px;
+  }
+  .sub_2:hover .sub_2_1{
+    top: 120px;
+    margin-left: 0;
+  }
+  .sub_1:hover .sub_1_1{
+    top: 120px;
+    margin-left: 0;
+  }
+
+
+
+  .sub_img2{
+    position: absolute;
+    margin: 0;
+    top: 900px;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+  }
+  .sub_img2 div {
+    width: 150px;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+  .sub_img2 div div{
+    margin-left: 0px;
+  }
+  .sub_3_1 , .sub_4_1{
+    max-height: 50px;
+  }
+  .sub_3:hover .sub_3_1{
+    top: 120px;
+    margin-left: 0;
+  }
+  .sub_4:hover .sub_4_1{
+    top: 120px;
+    margin-left: 0;
+  }
+
+}

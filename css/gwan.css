@@ -188,9 +188,129 @@ body{
   top:80%;
 }
 
+@media screen and ( min-width : 481px ) and ( max-width : 768px ){
+  body{
+    position: absolute;
+    overflow: scroll;
+    max-width: 100%;
+    max-height: auto;
+    width: auto;
+    display: block;
+  }
+  .navbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top:0;
+  }
+  .navbar a button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .navbar a button:before{
+    font-size: 25px;
+  }
+  .navbar ul{
+    position: relative;
+    margin-left: 0px;
+    left:460px;
+    top:20px;
+  }
+  .navbar ul li{
+    margin-left: 25px;
+    right: 0px;
+    font-size: 18px;
+  }
 
 
-@media screen and ( max-width : 400px ) {
+  .head_img{
+    width: 340px;
+    position: absolute;
+    top: 70px;
+    left:30px;
+    height : 600px;
+  }
+  .title{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+  .title2{
+    position: absolute;
+    top: 600px;
+    left: 340px;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+
+
+  .sub_img, .sub_img2{
+   display: block;
+   position: absolute;
+   top: auto;
+  }
+  .sub_img{
+    margin-top: 0;
+    position: absolute;
+    top: 70px;
+    margin-left: 380px;
+    left: 0;
+    overflow: hidden;
+  }
+  .sub_img div{
+    width: 230px;
+    overflow: hidden;
+    margin-left:30px;
+    font-size: 15px;
+  }
+  .sub_2_1 , .sub_3_1{
+    max-height: 50px;
+  }
+  .sub_2:hover .sub_2_1{
+    top: 210px;
+    margin-left: 0;
+  }
+  .sub_3:hover .sub_3_1{
+    top: 210px;
+    margin-left: 0;
+  }
+
+  .sub_img2{
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+
+    display: flex;
+    max-width: auto;
+  }
+  .sub_img2 div{
+    width: 170px;
+  }
+  .sub_img2 div div{
+    height: 40px;
+    font-size: 15px;
+  }
+  .sub_4:hover .sub_4_1{
+    top : 155px;
+  }
+  .sub_5:hover .sub_5_1{
+    top : 155px;
+  }
+  .sub_6:hover .sub_6_1{
+    top : 155px;
+  }
+
+}
+
+
+@media screen and ( max-width : 480px ) {
   body{
     position: absolute;
     overflow: scroll;

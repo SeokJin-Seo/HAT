@@ -10,6 +10,8 @@ body{
   height: 920px;
   max-height: 50%;
   background: #eee;
+  overflow: hidden;
+  background-color: rgba(  0.7 );
 }
 a button{
   background:none;
@@ -33,7 +35,7 @@ a button:before{
   left : 5.2%;
 }
 .head_title{
-
+  color: white;
 }
 .head_title ul{
   position: absolute;
