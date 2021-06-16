@@ -71,3 +71,33 @@ margin-top:2.2%;
   right: 0;
   z-index: -1;
 }
+
+@media screen and ( min-width : 481px ) and ( max-width : 768px ){
+  nav{
+    margin: 0;
+    width: 100%;
+  }
+  .navbar{
+    margin: 0;
+    top:20px;
+    left: 20px;
+
+  }
+  .navbar_2{
+    margin: 0;
+  }
+  .navbar_2 ul{
+    margin: 0;
+    left: 400px;
+      top: -20px;
+  }
+  .navbar_2 ul li{
+ font-size: 20px;
+ margin-left: 0;
+  }
+  .back{
+    margin-top: 0;
+  }
+
+
+}
